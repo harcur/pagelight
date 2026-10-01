@@ -1,0 +1,28 @@
+{
+  "name": "pagelight",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser-only book and drawing scanner: flattens curled pages into true-size PDFs using a printed calibration sheet. Nothing leaves the device.",
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource/instrument-sans": "^5.3.0",
+    "@fontsource/spline-sans-mono": "^5.3.0",
+    "@techstark/opencv-js": "4.12.0-release.1",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1",
+    "vitest": "^5.0.3"
+  }
+}

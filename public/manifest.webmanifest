@@ -1,0 +1,11 @@
+{
+  "name": "Pagelight",
+  "short_name": "Pagelight",
+  "description": "Flat, true-size scans of book pages and drawings. Runs entirely on this device.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3EEE4",
+  "theme_color": "#F3EEE4",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
